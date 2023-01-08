@@ -125,6 +125,7 @@ for(let index = 0; index < netArray.length; index++){
 
 average = Math.round((netChangeSum / 86) * 100) /100;
 
+//This method is known as Concatenation
 analysis = 'Financial Analysis' + '\n' +
 '-------------------' + '\n' +
 'Total Months: ' + months + '\n' +
