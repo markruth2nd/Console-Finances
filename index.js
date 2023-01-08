@@ -109,3 +109,8 @@ for(let index = 0; index < finances.length; index++){
     }
 }
 
+for(let index = 0; index < netArray.length; index++){
+    netChangeSum += netArray[index];
+}
+
+average = math.floor((netChangeSum / 86) * 100) /100;
