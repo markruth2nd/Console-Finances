@@ -94,3 +94,18 @@ let average;
 let net = 0;
 let netChangeSum = 0;
 let netArray = [];
+
+for(let index = 0; index < finances.length; index++){
+    for(let index2 = 0; index2 <finances[index].length; index2++){
+        if(typeof finances[index][index2] !== 'string'){
+            total += finances[index][index2];
+            change = finances[index][index2] - net;
+            net = finances[index][index2];
+            console.log(`Total: ${total}`);
+            console.log(`Change: ${change}`);
+            console.log(`Net: ${net}`);
+            console.log(`Net Array: ${netArray}`);
+        }
+    }
+}
+
