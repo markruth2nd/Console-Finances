@@ -86,3 +86,11 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+let months = finances.length;
+let total = 0;
+let change = 0;
+let average;
+let net = 0;
+let netChangeSum = 0;
+let netArray = [];
